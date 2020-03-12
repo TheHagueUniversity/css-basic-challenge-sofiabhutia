@@ -150,6 +150,27 @@ header {
   color: #FFF;
 }
 
+/* Gallery
+------------------------------------*/
+
+.gallery {
+  background: #EEE5E9;
+}
+
+.gallery img {
+  width: 250px;
+  height: 250px;
+  transition: 0.3s;
+  border: none;
+}
+
+.gallery img:hover {
+  width: 260px;
+  height: 260px;
+  transition: 0.3s;
+  box-shadow: 5px 5px 25px 10px rgba(0,0,0,0.2);
+}
+
 /* Contact Info
 ------------------------------------*/
 footer {
